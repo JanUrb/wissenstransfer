@@ -2,7 +2,7 @@
 
 - [Intro to Go](#intro-to-go)
   - [What is Go and what is its History?](#what-is-go-and-what-is-its-history)
-  - [Code Syntax Examples - (Next time you see code you will be able to read it)](#code-syntax-examples---next-time-you-see-code-you-will-be-able-to-read-it)
+  - [Code Syntax Examples - (Next time you see go code you will be able to read it)](#code-syntax-examples---next-time-you-see-go-code-you-will-be-able-to-read-it)
   - [Concurrency](#concurrency)
 
 ## What is Go and what is its History?
@@ -16,10 +16,10 @@
   * std lib provides a lot of functionlity(e.g: web and testing)
   * Simple language with focus on readability (official style guide that is enforced by the compiler)
 
-## Code Syntax Examples - (Next time you see code you will be able to read it)
+## Code Syntax Examples - (Next time you see go code you will be able to read it)
 
 * Variable Declaration
-* If -> Point to braces style, Talk about Gofmt, Go vet etc.
+* If -> Point to braces style, Talk about gofmt, go vet etc.
 * For
 * Struct
 * Public/Private + Methods
