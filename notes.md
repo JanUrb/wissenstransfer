@@ -2,7 +2,7 @@
 
 - [Intro to Go](#intro-to-go)
   - [What is Go and what is its History?](#what-is-go-and-what-is-its-history)
-  - [Code Syntax Examples](#code-syntax-examples)
+  - [Code Syntax Examples - (Next time you see code you will be able to read it)](#code-syntax-examples---next-time-you-see-code-you-will-be-able-to-read-it)
   - [Concurrency](#concurrency)
 
 ## What is Go and what is its History?
@@ -11,21 +11,23 @@
 * Go is a general-purpose language, designed as system (server) language
 * Go Features:
   * List of Features
-  * .
-  * ..
+  * Cross compilation, compiles to binaries -> no VM or Engine needed
+  * Static Typing but automatic type inference (x := 1 or y := "hi")
+  * std lib provides a lot of functionlity(e.g: web and testing)
+  * Simple language with focus on readability (official style guide that is enforced by the compiler)
 
-## Code Syntax Examples
+## Code Syntax Examples - (Next time you see code you will be able to read it)
 
 * Variable Declaration
 * If -> Point to braces style, Talk about Gofmt, Go vet etc.
 * For
 * Struct
 * Public/Private + Methods
-* Package Scope
 
 ## Concurrency
 
 * Explain the difference between Threads and Goroutines (Scheduler, OS Thread mapping etc), Deadlock
+* Concurrency Model: CSP -> Same as Erlang
 * Channels: Share by communication
 * Buffered, unbuffered channel
 * Iterating over channel
