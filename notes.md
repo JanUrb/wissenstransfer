@@ -28,7 +28,7 @@
 
 * Explain the difference between Threads and Goroutines (Scheduler, OS Thread mapping etc), Deadlock
 * Concurrency Model: CSP -> Same as Erlang
-* Channels: Share by communication
+* Channels: Share by communication -> https://www.ardanlabs.com/blog/2014/02/the-nature-of-channels-in-go.html
 * Buffered, unbuffered channel
 * Iterating over channel
 * Select (Random nature of select)
