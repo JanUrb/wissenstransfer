@@ -22,7 +22,7 @@
 * If -> Point to braces style, Talk about gofmt, go vet etc.
 * For
 * Struct
-* Public/Private + Methods
+* Public/Private + Methods (Only if asked about)
 
 ## Concurrency
 

@@ -30,7 +30,7 @@ type Component struct {
 //report is used by components to simulate reporting an event to the report channel.
 //The function report has an object of type Component as receiver.
 func (c Component) report(reportCh chan<- Event) {
-	for {
+	for { //for loop with no condition -> runs forever
 
 		// delay := .... uses the short declaration of var delay time.Duration = ....
 
@@ -55,8 +55,8 @@ func mergeReports(reports <-chan Event, output chan<- Event) {
 
 	//when the ticker ticks, send all reports to the output
 	for {
-		<-ticker.C //blocks until a value is send to the channel of the ticker
-		for v := range reports {
+		<-ticker.C               //blocks until a value is send to the channel of the ticker
+		for v := range reports { //iterate over the values stored in reports. Blocks, if reports is empty
 			output <- v
 		}
 	}
